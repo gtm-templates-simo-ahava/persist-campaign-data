@@ -35,7 +35,7 @@ ___TEMPLATE_PARAMETERS___
     "name": "storeInCookieOption",
     "checkboxText": "Store campaign data in a browser cookie",
     "simpleValueType": true,
-    "help": "Select this option to save the page URL in a browser cookie \u003cstrong\u003eif\u003c/strong\u003e it has campaign defining parameters (utm_*, gclid, dclid). The referrer string is also saved in a cookie \u003cstrong\u003eif\u003c/strong\u003e its hostname differs from the current one."
+    "help": "Select this option to save the page URL in a browser cookie \u003cstrong\u003eif\u003c/strong\u003e it has campaign defining parameters (utm_*, gclid). The referrer string is also saved in a cookie \u003cstrong\u003eif\u003c/strong\u003e its hostname differs from the current one."
   },
   {
     "type": "CHECKBOX",
@@ -56,7 +56,7 @@ ___TEMPLATE_PARAMETERS___
         "displayName": "URL parameters that trigger the storage",
         "simpleValueType": true,
         "help": "Comma-separated list of parameters that trigger storage. If the URL has any one of these, then the browser cookie will be updated with the current URL.",
-        "defaultValue": "utm_source,utm_medium,utm_campaign,utm_term,utm_content,utm_id,gclid,dclid",
+        "defaultValue": "utm_source,utm_medium,utm_campaign,utm_term,utm_content,utm_id,gclid",
         "valueValidators": [
           {
             "type": "NON_EMPTY"
@@ -646,7 +646,7 @@ scenarios:
     assertApi('gtmOnFailure').wasCalled();
     assertApi('gtmOnSuccess').wasNotCalled();
 setup: "const mockStoreData = {\n  storeInCookieOption: true,\n  triggerParameters:\
-  \ 'utm_source,utm_medium,utm_campaign,utm_term,utm_content,utm_id,gclid,dclid',\n\
+  \ 'utm_source,utm_medium,utm_campaign,utm_term,utm_content,utm_id,gclid',\n\
   \  urlCookieName: '__gtm_campaign_url',\n  referrerCookieName: '__gtm_referrer'\n\
   };\n\nconst mockOriginalData = {\n  originalLocationOption: true,\n  dataLayerName:\
   \ 'dataLayer',\n  dataLayerKey: 'originalLocation'\n};\n  \nconst workingUrl = {\n\
