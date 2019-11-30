@@ -13,7 +13,7 @@ ___INFO___
   "id": "cvt_temp_public_id",
   "version": 1,
   "securityGroups": [],
-  "displayName": "Persist campaign data",
+  "displayName": "Persist Campaign Data",
   "categories": ["ANALYTICS", "UTILITY"],
   "brand": {
     "id": "brand_dummy",
