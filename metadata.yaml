@@ -2,5 +2,8 @@ homepage: "https://www.simoahava.com/"
 documentation: "https://www.simoahava.com/analytics/persist-campaign-data-landing-page/"
 versions:
   # Latest version
+  - sha: 03fa38912d404445e7c78161b145a950a3513443
+    changeNotes: Update name
+  # Older versions
   - sha: 45630f94780d65639ded0113d07562944e7be3e1
     changeNotes: Initial release.
