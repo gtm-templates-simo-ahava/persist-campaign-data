@@ -14,10 +14,13 @@ ___INFO___
   "version": 1,
   "securityGroups": [],
   "displayName": "Persist Campaign Data",
-  "categories": ["ANALYTICS", "UTILITY"],
+  "categories": [
+    "ANALYTICS",
+    "UTILITY"
+  ],
   "brand": {
-    "id": "brand_dummy",
-    "displayName": "",
+    "id": "github.com_gtm-templates-simo-ahava",
+    "displayName": "gtm-templates-simo-ahava",
     "thumbnail": "data:image/png;base64,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\u003d\u003d"
   },
   "description": "This template preserves the landing page URL and referrer string in a browser cookie, and pushes the original location into \u003ccode\u003edataLayer\u003c/code\u003e.",
@@ -40,7 +43,7 @@ ___TEMPLATE_PARAMETERS___
   {
     "type": "CHECKBOX",
     "name": "originalLocationOption",
-    "checkboxText": "Push original location in \u003ccode\u003edataLayer\u003c/code\u003e",
+    "checkboxText": "Push original location in dataLayer",
     "simpleValueType": true,
     "help": "Select this option to push the current URL into \u003ccode\u003edataLayer\u003c/code\u003e. This is useful on single-page apps with \u003ca href\u003d\"https://www.simoahava.com/gtm-tips/fix-rogue-referral-problem-single-page-sites/\"\u003erogue referral\u003c/a\u003e issues. To be effective, this tag should only fire on the initial page load and not on subsequent SPA page events."
   },
@@ -646,13 +649,12 @@ scenarios:
     assertApi('gtmOnFailure').wasCalled();
     assertApi('gtmOnSuccess').wasNotCalled();
 setup: "const mockStoreData = {\n  storeInCookieOption: true,\n  triggerParameters:\
-  \ 'utm_source,utm_medium,utm_campaign,utm_term,utm_content,utm_id,gclid',\n\
-  \  urlCookieName: '__gtm_campaign_url',\n  referrerCookieName: '__gtm_referrer'\n\
-  };\n\nconst mockOriginalData = {\n  originalLocationOption: true,\n  dataLayerName:\
-  \ 'dataLayer',\n  dataLayerKey: 'originalLocation'\n};\n  \nconst workingUrl = {\n\
-  \  params: '?utm_source=test&utm_medium=test',\n  host: 'www.example.com',\n  full:\
-  \ 'https://www.example.com/path/?utm_source=test&utm_medium=test#home'\n};\n\nconst\
-  \ mockReferrer = {\n  host: 'www.otherdomain.com',\n  full: 'https://www.otherdomain.com/path/'\n\
+  \ 'utm_source,utm_medium,utm_campaign,utm_term,utm_content,utm_id,gclid',\n  urlCookieName:\
+  \ '__gtm_campaign_url',\n  referrerCookieName: '__gtm_referrer'\n};\n\nconst mockOriginalData\
+  \ = {\n  originalLocationOption: true,\n  dataLayerName: 'dataLayer',\n  dataLayerKey:\
+  \ 'originalLocation'\n};\n  \nconst workingUrl = {\n  params: '?utm_source=test&utm_medium=test',\n\
+  \  host: 'www.example.com',\n  full: 'https://www.example.com/path/?utm_source=test&utm_medium=test#home'\n\
+  };\n\nconst mockReferrer = {\n  host: 'www.otherdomain.com',\n  full: 'https://www.otherdomain.com/path/'\n\
   };"
 
 
